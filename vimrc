@@ -62,3 +62,5 @@ nmap <silent> ,/ :nohlsearch<CR>
 cmap w!! w !sudo tee % >/dev/null
 
 set nocompatible
+
+command NT NERDTreeToggle
