@@ -8,8 +8,11 @@ Vim Configuration
 4. NERDTree <br>
 5. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/ <br>
 
-<strong>Installation</strong>
+<strong>Installation</strong> <br>
 // Create a backup of ~/.vimrc file and ~/.vim folder <br>
 cd ~/.vim <br>
 git clone git@github.com:rahulpache/my-vim-configulation.git . <br>
 ls ~/.vim/vimrc ~/.vimrc <br>
+
+<strong>Usage</strong> <br>
+Use :NT to Toggle NERDTree <br>
