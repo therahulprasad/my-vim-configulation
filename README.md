@@ -13,3 +13,6 @@ Vim Configuration
 cd ~/.vim <br>
 git clone git@github.com:rahulpache/my-vim-configulation.git . <br>
 ls ~/.vim/vimrc ~/.vimrc <br>
+
+<strong>Usage</strong> <br>
+Use :NT to Toggle NERDTree <br>
