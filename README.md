@@ -13,6 +13,9 @@ Vim Configuration
 cd ~/.vim <br>
 git clone git@github.com:rahulpache/my-vim-configulation.git . <br>
 ls ~/.vim/vimrc ~/.vimrc <br>
+Initialte all submodules <br>
+cd ~/.vim/bundles/sparkup <br>
+make vim-pathogen <br>
 
 <strong>Usage</strong> <br>
 Use :NT to Toggle NERDTree <br>
