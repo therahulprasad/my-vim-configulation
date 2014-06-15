@@ -32,8 +32,10 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 set title                " change the terminal's title
 set visualbell           " don't beep
 set noerrorbells         " don't beep
-set nobackup
-set noswapfile
+" LET THERE BE swao and backup it informs that file is still open in other
+" window
+" set nobackup      
+" set noswapfile
 set expandtab
 filetype plugin indent on
 if has('autocmd')
