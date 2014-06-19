@@ -27,4 +27,4 @@ Vim Configuration
 </ul>
 <strong>Usage</strong> <br>
 Use :NT to Toggle NERDTree <br>
-Use <F2> key to toggle pastemode / or :set paste - :set nopaste <br>
+Use [F2] key to toggle pastemode / or :set paste - :set nopaste <br>
