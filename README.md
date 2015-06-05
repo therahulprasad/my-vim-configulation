@@ -22,7 +22,7 @@ Vim Configuration
       <li>git submodule update</li>
     </ul>
   </li>
-  <li>cd ~/.vim/bundles/sparkup</li>
+  <li>cd ~/.vim/bundle/sparkup</li>
   <li>make vim-pathogen</li>
 </ul>
 <strong>Usage</strong> <br>
