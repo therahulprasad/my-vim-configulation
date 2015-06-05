@@ -8,7 +8,7 @@ Vim Configuration
 4. NERDTree <br>
 5. vim-surround (http://github.com/tpope/vim-surround) usage: cs'" or ysiw" <br>
 6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/ <br>
-7. Tagbar https://github.com/majutsushi/tagbar
+7. Tagbar https://github.com/majutsushi/tagbar <br>
 8. Go-Vim https://github.com/fatih/vim-go
 
 <strong>Installation</strong> <br>
