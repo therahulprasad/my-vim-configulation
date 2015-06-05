@@ -14,7 +14,7 @@ Vim Configuration
   <li>Create a backup of ~/.vimrc file and ~/.vim folder</li>
   <li>cd ~/.vim</li>
   <li>git clone git@github.com:rahulpache/my-vim-configulation.git .</li>
-  <li>ls ~/.vim/vimrc ~/.vimrc</li>
+  <li>ln ~/.vim/vimrc ~/.vimrc</li>
   <li>
     Initialte all submodules
     <ul>

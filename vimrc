@@ -11,8 +11,10 @@ let mapleader=","
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
 
-set nowrap        " don't wrap lines
+" set nowrap        " don't wrap lines
 set tabstop=2     " a tab is four spaces
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on
@@ -67,3 +69,7 @@ cmap w!! w !sudo tee % >/dev/null
 set nocompatible
 
 command NT NERDTreeToggle
+command TT TagbarToggle
+autocmd VimEnter * nested :call tagbar#autoopen(1)
+autocmd FileType * nested :call tagbar#autoopen(0)
+autocmd BufEnter * nested :call tagbar#autoopen(0)
