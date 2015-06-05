@@ -28,3 +28,7 @@ Vim Configuration
 <strong>Usage</strong> <br>
 Use :NT to Toggle NERDTree <br>
 Use [F2] key to toggle pastemode / or :set paste - :set nopaste <br>
+<br>
+<strong>Adding new bundle</strong><br>
+Add them as submodule<br>
+git submodule add git://github.com/majutsushi/tagbar bundle/tagbar
