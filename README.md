@@ -1,7 +1,10 @@
 Vim Configuration
 ====================
 
-TODO: <
+TODO: <br>
+1. Implement NERDTreeTabs https://github.com/jistr/vim-nerdtree-tabs <br>
+2. Implement command-t https://wincent.com/products/command-t
+3. Implement supertab https://github.com/ervandew/supertab or YMC or neocomplete
 
 <strong>Contains</strong> <br>
 1. Pathogen <br>
@@ -28,8 +31,12 @@ TODO: <
   </li>
   <li>cd ~/.vim/bundle/sparkup</li>
   <li>make vim-pathogen</li>
-  <li>For Tagbar you must sudo apt-get install exuberant-ctags
-  <li>For Go-Vim run :GoInstallBinaries 
+  <li>For Tagbar you must sudo apt-get install exuberant-ctags</li>
+  <li>For Go-Vim run :GoInstallBinaries </li>
+  <li>sudo apt-get install ruby ruby-dev
+  <li>cd ~/.vim/bundle/command-t/ruby/command-t/</li>
+  <li>ruby extconf.rb</li>
+  <li>make</li>
 </ul>
 <strong>Usage</strong> <br>
 Use :NT to Toggle NERDTree <br>
