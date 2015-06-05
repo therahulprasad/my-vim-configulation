@@ -8,13 +8,15 @@ Vim Configuration
 4. NERDTree <br>
 5. vim-surround (http://github.com/tpope/vim-surround) usage: cs'" or ysiw" <br>
 6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/ <br>
+7. Tagbar https://github.com/majutsushi/tagbar
+8. Go-Vim https://github.com/fatih/vim-go
 
 <strong>Installation</strong> <br>
 <ul>
   <li>Create a backup of ~/.vimrc file and ~/.vim folder</li>
   <li>cd ~/.vim</li>
   <li>git clone git@github.com:rahulpache/my-vim-configulation.git .</li>
-  <li>ln ~/.vim/vimrc ~/.vimrc</li>
+  <li>ls ~/.vim/vimrc ~/.vimrc</li>
   <li>
     Initialte all submodules
     <ul>
@@ -24,6 +26,8 @@ Vim Configuration
   </li>
   <li>cd ~/.vim/bundle/sparkup</li>
   <li>make vim-pathogen</li>
+  <li>For Tagbar you must sudo apt-get install exuberant-ctags
+  <li>For Go-Vim run :GoInstallBinaries 
 </ul>
 <strong>Usage</strong> <br>
 Use :NT to Toggle NERDTree <br>
