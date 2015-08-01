@@ -14,7 +14,8 @@ TODO: <br>
 5. vim-surround (http://github.com/tpope/vim-surround) usage: cs'" or ysiw" <br>
 6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/ <br>
 7. Tagbar https://github.com/majutsushi/tagbar <br>
-8. Go-Vim https://github.com/fatih/vim-go
+8. Go-Vim https://github.com/fatih/vim-go <br>
+9. vim-markdown added https://github.com/plasticboy/vim-markdown <br>
 
 <strong>Installation</strong> <br>
 <ul>
