@@ -11,9 +11,9 @@ My Vim Configuration
 3. Fugitive  
 4. NERDTree  
 5. vim-surround (http://github.com/tpope/vim-surround) usage: cs'" or ysiw"  
-6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/
-7. Tagbar https://github.com/majutsushi/tagbar
-8. Go-Vim https://github.com/fatih/vim-go
+6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/  
+7. Tagbar https://github.com/majutsushi/tagbar  
+8. Go-Vim https://github.com/fatih/vim-go  
 9. vim-markdown added https://github.com/plasticboy/vim-markdown  
 
 Installation
@@ -46,3 +46,14 @@ Usage
 **Adding new bundle**  
 > Add them as submodule  
 `git submodule add git://github.com/majutsushi/tagbar bundle/tagbar`
+
+**Removing a plugin**
+1. git submodule deinit bundle/vim-rvm  
+2. git rm bundle/vim-rvm  
+3. git rm --cached bundle/vim-rvm  
+4. rm -rf .git/modules/bundle/vim-rvm  
+5. Remove configurations from vimrc if any
+6. git commit -m "Module removed"  
+
+
+

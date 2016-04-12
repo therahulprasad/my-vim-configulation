@@ -69,10 +69,6 @@ cmap w!! w !sudo tee % >/dev/null
 set nocompatible
 
 command NT NERDTreeToggle
-command TT TagbarToggle
-autocmd VimEnter * nested :call tagbar#autoopen(1)
-autocmd FileType * nested :call tagbar#autoopen(0)
-autocmd BufEnter * nested :call tagbar#autoopen(0)
 au VimEnter *  NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 augroup BgHighlight
