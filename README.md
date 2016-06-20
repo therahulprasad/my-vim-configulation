@@ -8,13 +8,14 @@ My Vim Configuration
 **Contains**  
 1. Pathogen  
 2. EasyMotion  
-3. Fugitive  
+3. Fugitive  (https://github.com/tpope/vim-fugitive)
 4. NERDTree  
 5. vim-surround (http://github.com/tpope/vim-surround) usage: cs'" or ysiw"  
 6. vimrc from http://nvie.com/posts/how-i-boosted-my-vim/
-7. Tagbar https://github.com/majutsushi/tagbar
+7. [Removed because I did not use it for long time] Tagbar https://github.com/majutsushi/tagbar
 8. Go-Vim https://github.com/fatih/vim-go
 9. vim-markdown added https://github.com/plasticboy/vim-markdown  
+10. command-t added <https://github.com/wincent/Command-T>
 
 Installation
 ------------
