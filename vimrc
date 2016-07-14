@@ -1,4 +1,3 @@
-
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
 call pathogen#helptags()
@@ -11,8 +10,8 @@ let mapleader=","
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
+"nmap <S-Enter> O<Esc>
+"nmap <CR> o<Esc>
 
 " set nowrap        " don't wrap lines
 set tabstop=2     " a tab is four spaces
@@ -84,4 +83,10 @@ augroup END
 let g:CommandTAcceptSelectionMap = '<C-t>'
 let g:CommandTAcceptSelectionTabMap = '<CR>'
 
+" Let neocomplete start when vim starts
+let g:neocomplete#enable_at_startup = 1
 
+" Powerline support
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
