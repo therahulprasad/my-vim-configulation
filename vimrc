@@ -45,7 +45,7 @@ if has('autocmd')
 endif 
 
 if &t_Co >= 256 || has("gui_running")
-	colorscheme mustang
+ colorscheme mustang
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -87,6 +87,6 @@ let g:CommandTAcceptSelectionTabMap = '<CR>'
 let g:neocomplete#enable_at_startup = 1
 
 " Powerline support
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+" python from powerline.vim import setup as powerline_setup
+" python powerline_setup()
+" python del powerline_setup
