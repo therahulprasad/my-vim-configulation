@@ -34,8 +34,7 @@ Installation
 - sudo apt-get install ruby ruby-dev
 - cd ~/.vim/bundle/command-t/ruby/command-t/
 - ruby extconf.rb
-- make  
--
+- make
 
 Usage
 -----
