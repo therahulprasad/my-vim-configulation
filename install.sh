@@ -5,7 +5,7 @@ ls $HOME/.vim && (cp -r $HOME/.vim $HOME/.vim_backup || (echo "Backup of .vim fa
 # This is dangereous but git clone wont work if directory is not clean
 rm -rf $HOME/.vim && mkdir $HOME/.vim
 cd $HOME/.vim
-git clone git@github.com:rahulpache/my-vim-configulation.git .
+git clone https://github.com/therahulprasad/my-vim-configulation.git .
 ln -s $HOME/.vim/vimrc $HOME/.vimrc
 pip install powerline-status
 git submodule init
