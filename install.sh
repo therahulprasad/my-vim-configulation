@@ -1,4 +1,4 @@
-$ Backup everything
+# Backup everything
 ls $HOME/.vimrc && (cp $HOME/.vimrc $HOME/.vimrc_backup || (echo "Backup of .vimrc failed. Exiting."; exit 1)) || (echo "~/.vimrc not found continuing")
 ls $HOME/.vim && (cp -r $HOME/.vim $HOME/.vim_backup || (echo "Backup of .vim failed. Exiting."; exit 1)) || (echo "~/.vim forder not found continuing")
 
